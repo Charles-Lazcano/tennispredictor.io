@@ -55,6 +55,10 @@ Not modeled: **injury status**, **jet lag / travel schedule**, and **fatigue** (
 
 Jeff Sackmann's Tennis Data, a daily completed-match feed, and an upcoming-fixtures feed. Raw and derived data tables are handled locally/server-side and excluded from version control.
 
+## Repository scope
+
+This repo includes the modeling (`train*.py`), verification/audit-trail (`pipeline/db.py`, `pipeline/ots_stamp.py`, `pipeline/report.py`), data-cleaning (`pipeline/build_canonical.py`, `clean_matches.py`, `clean_rankings.py`), Elo (`pipeline/elo.py`), dashboard, and deployment layers. The modules that talk directly to third-party data providers (fetch/scheduling scripts) are kept in a private companion repo, since publishing exact scraping/API-access patterns against services with restrictive terms isn't something I want in a public index. Happy to walk through the full pipeline live.
+
 ## Development note
 
 AI coding assistants (ChatGPT and Claude) were used as supplementary tools for brainstorming, code structuring, documentation drafting, and deployment troubleshooting. All modeling decisions, data handling, evaluation logic, and system architecture were designed and validated by me (Charles).
