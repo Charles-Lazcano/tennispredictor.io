@@ -1,0 +1,24 @@
+# systemd unit template - keeps the site running across reboots/crashes.
+#
+# Install (on the EC2 instance, as root/sudo):
+#   1. Edit the User= and WorkingDirectory= lines below for your setup.
+#   2. sudo cp deploy/tennis-predictor.service /etc/systemd/system/
+#   3. sudo systemctl daemon-reload
+#   4. sudo systemctl enable --now tennis-predictor
+#   5. Check status:  sudo systemctl status tennis-predictor
+#      Check logs:    sudo journalctl -u tennis-predictor -f
+
+[Unit]
+Description=Tennis Predictor site (Predictor + Dashboard)
+After=network.target
+
+[Service]
+Type=simple
+User=ec2-user
+WorkingDirectory=/home/ec2-user/tennis-predictor-app
+ExecStart=/home/ec2-user/tennis-predictor-app/.venv/bin/streamlit run main.py --server.port 8502
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
