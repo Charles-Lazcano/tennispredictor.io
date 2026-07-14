@@ -1,4 +1,3 @@
-<img width="1808" height="815" alt="Screenshot 2026-07-14 161630" src="https://github.com/user-attachments/assets/2bfcdc9a-f78a-439f-b3ab-8fcd72ea8c07" />
 # Tennis Match Analytics & Prediction System
 
 **Live app: [tennispredictor.io](https://tennispredictor.io)**
