@@ -1,3 +1,4 @@
+<img width="1808" height="815" alt="Screenshot 2026-07-14 161630" src="https://github.com/user-attachments/assets/2bfcdc9a-f78a-439f-b3ab-8fcd72ea8c07" />
 # Tennis Match Analytics & Prediction System
 
 **Live app: [tennispredictor.io](https://tennispredictor.io)**
@@ -98,7 +99,7 @@ The live app has two pages:
 
 
 
-![Verification Dashboard](   <img width="1808" height="815" alt="Screenshot 2026-07-14 161630" src="https://github.com/user-attachments/assets/dc6276fe-e40b-4b8a-97a4-e4baa412242c" />
+![Verification Dashboard](<img width="1808" height="815" alt="Screenshot 2026-07-14 161630" src="https://github.com/user-attachments/assets/574e81d3-45ec-4370-86bf-523a63edcd95" />
 )
 
 
