@@ -14,7 +14,7 @@ Pick two players, a surface, and a match format — get a live win-probability e
 
 <img width="1808" alt="Verification Dashboard — accuracy history and blockchain-anchored audit trail" src="https://github.com/user-attachments/assets/0f214d71-26aa-4b8e-8fb9-46f725f0b6c7" />
 
-Every prediction is timestamped at insert time, SHA-256 hashed, and anchored to the Bitcoin blockchain via **OpenTimestamps** — so the model's track record isn't just a claim, it's checkable.
+Every prediction is timestamped at insert time, SHA-256 hashed, and anchored to the Bitcoin blockchain via **OpenTimestamps** so the model's track record isn't just a claim, it's checkable.
 
 ---
 
@@ -23,13 +23,13 @@ Every prediction is timestamped at insert time, SHA-256 hashed, and anchored to 
   <img width="45%" src="docs/notebook_example2.png" alt="Exploratory notebook — prediction error patterns" />
 </p>
 
-The project began as exploratory analysis in a Jupyter notebook — testing feature relevance and error patterns — before becoming a modular, production pipeline.
+The project began as exploratory analysis in a Jupyter notebook testing feature relevance and error patterns — before becoming a modular, production pipeline.
 
 ---
 
 ## What this is
 
-A Python analytics system that predicts professional tennis outcomes — win probability, total games, and match length (two vs. three sets) — from historical ATP data. It's built around three ideas: a custom rolling-window Elo system, a fully automated daily data pipeline, and a cryptographically verifiable prediction log, all deployed as a live web app.
+A Python analytics system that predicts professional tennis outcomes win probability, total games, and match length (two vs. three sets) from historical ATP data. It's built around three ideas: a custom rolling-window Elo system, a fully automated daily data pipeline, and a cryptographically verifiable prediction log, all deployed as a live web app.
 
 Modeling follows strict walk-forward validation discipline: no prediction is ever allowed to see information that wouldn't have existed at the time it was made.
 
@@ -41,7 +41,7 @@ Modeling follows strict walk-forward validation discipline: no prediction is eve
 
 **Models** — logistic regression for win probability; gradient-boosted models for total games and match length, each trained and evaluated on its own feature pipeline.
 
-**Verification** — predictions are split into `true-forward` (predicted before the match existed in any results feed — genuine walk-forward accuracy) and `same-day` (predicted the moment a result appeared — informational only). The two are never blended in accuracy reporting.
+**Verification** — predictions are split into `true-forward` (predicted before the match existed in any results feed — genuine walk-forward accuracy) and `same-day` (predicted the moment a result appeared informational only). The two are never blended in accuracy reporting.
 
 **Pipeline** — runs unattended multiple times a day: fetch new results → reconcile prior true-forward predictions against outcomes → pull upcoming fixtures and generate new predictions → hash and log the run → commit the day's data.
 
