@@ -91,16 +91,17 @@ The live app has two pages:
 
 ![Tennis Match Predictor UI](docs/ui_preview.png)
 
-![Verification Dashboard](<img width="1808" height="815" alt="Screenshot 2026-07-14 161630" src="https://github.com/user-attachments/assets/953618c0-b7c9-4f06-9f6b-fdca30077ad9" />)
 
 ## Example Prediction Output
 
 ![Prediction Output Example](<img width="962" height="814" alt="Screenshot 2026-07-14 163501" src="https://github.com/user-attachments/assets/d23b49a7-8c09-4222-95f8-d62e7cbc19d4" />)
 
 
----
 
-## Design Principles
+![Verification Dashboard](   <img width="1808" height="815" alt="Screenshot 2026-07-14 161630" src="https://github.com/user-attachments/assets/dc6276fe-e40b-4b8a-97a4-e4baa412242c" />
+)
+
+
 - Walk-forward validation discipline — never let a model see information from the future, even accidentally
 - Deterministic inference (no subjective overrides)
 - Verifiable, not just reported: predictions are hashed and timestamped so accuracy claims can be independently checked
