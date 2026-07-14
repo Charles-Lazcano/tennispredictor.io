@@ -95,7 +95,8 @@ The live app has two pages:
 
 ## Example Prediction Output
 
-![Prediction Output Example](docs/prediction_example.png)
+![Prediction Output Example](<img width="1808" height="815" alt="Screenshot 2026-07-14 161630" src="https://github.com/user-attachments/assets/b9bd775d-1522-423f-a8ab-b8eb9829c2bd" />
+)
 
 ---
 
