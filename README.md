@@ -49,7 +49,7 @@ Modeling follows strict walk-forward validation discipline: no prediction is eve
 
 ## Known limitations
 
-Not modeled: **injury status**, **jet lag / travel schedule**, and **fatigue** (recent match load). These are documented gaps, not silent errors — weight predictions accordingly.
+Not modeled: **injury status**, **jet lag / travel schedule**, and **fatigue** (recent match load). These are documented gaps, not silent errors weight predictions accordingly.
 
 ## Data sources
 
