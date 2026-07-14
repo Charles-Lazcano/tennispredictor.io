@@ -95,11 +95,13 @@ The live app has two pages:
 
 ## Example Prediction Output
 
-![Prediction Output Example](<img width="962" height="814" alt="Screenshot 2026-07-14 163501" src="https://github.com/user-attachments/assets/d23b49a7-8c09-4222-95f8-d62e7cbc19d4" />)
+![Prediction Output Example]<img width="962" height="814" alt="Screenshot 2026-07-14 163501" src="https://github.com/user-attachments/assets/95439932-5211-4d9d-a8f1-6dd1e17d03ee" />
 
 
 
-![Verification Dashboard](<img width="1808" height="815" alt="Screenshot 2026-07-14 161630" src="https://github.com/user-attachments/assets/574e81d3-45ec-4370-86bf-523a63edcd95" />
+
+![Verification Dashboard](<img width="1808" height="815" alt="Screenshot 2026-07-14 161630" src="https://github.com/user-attachments/assets/0f214d71-26aa-4b8e-8fb9-46f725f0b6c7" />
+
 )
 
 
