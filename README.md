@@ -61,7 +61,7 @@ This repo includes the modeling (`train*.py`), verification/audit-trail (`pipeli
 
 ## Development note
 
-AI coding assistants (ChatGPT and Claude) were used as supplementary tools for brainstorming, code structuring, documentation drafting, and deployment troubleshooting. All modeling decisions, data handling, evaluation logic, and system architecture were designed and validated by me (Charles).
+AI was used as supplementary tools for documentation drafting and deployment troubleshooting. All modeling decisions, data handling, evaluation logic, and system architecture were designed and validated by me (Charles).
 
 ## Disclaimer
 
